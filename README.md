@@ -1,3 +1,14 @@
+# Fork:
+---------
+Fork contains:
+
+- Upgraded firebase version
+- Prebuilt branch to use directly in package.json:
+```
+  "dependencies": {
+    "@use-firebase/auth": "sorja/use-firebase-app#prebuilt",
+```
+    
 # @use-firebase/app
 
 A custom React Hook that impliments Firebase's App object.
